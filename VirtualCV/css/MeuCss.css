@@ -1,0 +1,71 @@
+/* Define o estilo para o fundo da página */
+.background {
+  background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p1/7620936-blue-wave-abstract-background-web-background-blue-texture-banner-design-creative-cover-design-backdrop-minimal-background-vector-illustration-vetor.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Altura igual à altura da janela do navegador */
+}
+
+/* Estiliza o texto do título centralizado na página com cor branca */
+.text-title {
+  text-align: center;
+  color: #ffffff; /* Defina uma cor que contraste bem com a imagem de fundo */
+}
+
+/* Estiliza o texto da seção "Sobre Mim" com a cor branca e um tamanho de fonte maior */
+.text-title-pages {
+  text-align: center;
+  color: #ffffff;
+  font-size: larger;
+}
+
+/* Estiliza os botões com um esquema de cores específico, incluindo transições suaves ao passar o mouse */
+.custom-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #0056b3;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 16px;
+  transition: background-color 0.3s; /* Transição suave da cor de fundo */
+}
+
+/* Define o estilo ao passar o mouse sobre os botões */
+.custom-button:hover {
+  background-color: #0056b3;
+  color: #ffffff;
+}
+
+/* Centraliza o conteúdo dos botões na página */
+.button-container {
+  text-align: center;
+}
+
+/* Estiliza uma lista com os marcadores no centro */
+.centered-list {
+  list-style-position: inside; /* Coloca os marcadores dentro do contêiner */
+  text-align: center; /* Centraliza o texto */
+  padding-left: 0; /* Remove o recuo padrão da lista */
+}
+
+/* Define o alinhamento central e o espaçamento para os itens da lista */
+.centered-list li {
+  text-align: center;
+  margin: 10px 0; /* Espaçamento entre cada item da lista */
+}
+
+/* Estiliza uma lista sem marcadores, adicionando uma linha horizontal */
+.line-list {
+  list-style: none; /* Remove os marcadores de lista padrão */
+  padding: 0;
+  margin: 0;
+  border-top: 3px solid #ffffff; /* Adiciona uma linha horizontal no topo */
+}
+
+/* Define o espaçamento entre os itens da lista */
+.line-list li {
+  margin-top: 20px;
+}
